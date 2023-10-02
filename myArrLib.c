@@ -64,7 +64,7 @@ void keepPrintingSlice(IntArray intArr) {
         printf("Slice end index (exclusive)? ");
         scanf("%d", &ndxEnd);
         
-        printf("Here's your sice: ");
+        printf("Here's your slice: ");
         printSlice(intArr, ndxStart, ndxEnd);
         printf("\n\n");
         
